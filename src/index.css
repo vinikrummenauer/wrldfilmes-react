@@ -1,0 +1,21 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#1a0f33, #201b2c);
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #77ffc0;
+    transition: .5s;
+}
+
+a:hover{
+    color: rgb(63, 157, 135);
+}
