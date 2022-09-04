@@ -1,10 +1,12 @@
 import { useState, useEffect} from "react"
 import { useParams} from 'react-router-dom'
+
 import{
   BsGraphUp,
   BsWallet2,
   BsHourglassSplit,
-  BsFillFileEarmarkTextFill
+  BsFillFileEarmarkTextFill,
+  BsCalendar2Date
 } from 'react-icons/bs'
 
 import MovieCard from "../components/MovieCard"
@@ -52,6 +54,12 @@ const Movie = () => {
                 <BsHourglassSplit /> Duração:
               </h3>
               <p>{movie.runtime} minutos</p>
+            </div>
+            <div className="info">
+              <h3>
+                <BsCalendar2Date /> Data de lançamento:
+              </h3>
+              <p>{movie.release_date} </p>
             </div>
             <div className="info description">
               <h3>

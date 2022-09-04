@@ -1,5 +1,5 @@
-import { useState, useEffect} from "react"
-import { useSearchParams} from "react-router-dom"
+import { useState, useEffect } from "react"
+import { useSearchParams } from "react-router-dom"
 import MovieCard from "../components/MovieCard"
 
 const searchURL = import.meta.env.VITE_SEARCH
