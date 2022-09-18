@@ -1,9 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
-//Importando rotas do React
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-
 import App from './App'
 import Home from './pages/Home'
 import Search from './pages/Search'
