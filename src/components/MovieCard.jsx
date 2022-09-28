@@ -19,9 +19,9 @@ const MovieCard = ({ movie, showLink = true }) => {
     <p className="desc">
         {movie.overview}
     </p>
-    {/* aqui em baixo verifica se a propriedade showLink é true, então, se for verdadeira, vai levar para o link com os detalhes do filme
+    {/* aqui em baixo verifica se a propriedade showlink é true, então, se for verdadeira, vai levar para o link com os detalhes do filme
         e esse link, é igual o que defini no main por que é uma rota */}
-    {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
+    {showLink && <Link to={`/movie/${movie.id}`}>Ver mais</Link>}
   </div>
 }
 
