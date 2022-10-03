@@ -21,7 +21,10 @@ const Navbar = () => {
   return (
     <nav id="navbar">
         <h2>
-          <Link to="/"><BiCameraMovie/>WRLDFilmes</Link>
+          <Link to="/">WRLDFilmes</Link>
+        </h2>
+        <h2>
+          Encontre qualquer filme existente!
         </h2>
         <form onSubmit={handleSubmit}>
             {/* a propriedade onChange, para que cada vez que alguem digitar algo na barra de search, isso ser passado para o useState do search

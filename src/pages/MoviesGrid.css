@@ -27,10 +27,12 @@
     justify-content: space-between;
     background-image: linear-gradient(black, #1e123b);
     padding: 1rem;
+    border-radius: 30px;
 }
 
 .movies-container div img{
-    max-width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
 }
 
 .movies-container div img,
@@ -46,7 +48,7 @@
 .movies-container div a{
     background-color: #ffffff;
     border: 2px solid #ffffff;
-    border-radius: 4px;
+    border-radius: 20px;
     color: #000;
     padding: 1rem 0.5rem;
     align-items: center;
