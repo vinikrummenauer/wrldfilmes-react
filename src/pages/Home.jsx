@@ -36,7 +36,7 @@ const Home = () => {
       {/* em baixo é um loop em que mostrará todos os filmes, função .map com o parametro movie, ou seja, vai mapear cada filme
           de topMovies e passar para cada um o componente Moviecard com a atribuição da key e o id, e quando for
           fazer loop em react, sempre tentar atribuir a key, com o id do elemento */}
-      {topMovies.length > 0 && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>)}
+      {topMovies.length>0 && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>)}
       </div>
     </div>
   )
